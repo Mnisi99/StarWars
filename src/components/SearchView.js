@@ -1,7 +1,6 @@
 import React from 'react';
 import Hero from './Hero';
 import StarWars from './StarWars';
-import Footer from './Footer';
 
 class SearchView extends React.Component {
 
@@ -22,8 +21,6 @@ class SearchView extends React.Component {
                        </div>
                    </div>
                 }
-                <Footer />
-                
             </>
         )
     }

@@ -18,15 +18,19 @@ function App() {
   useEffect(() => {
     if (searchText) {
       fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=ab166ff82684910ae3565621aea04d62&language=en-US&query=${searchText}&page=1&include_adult=false`
+        `https://api.themoviedb.org/3/search/movie?api_key=ab166ff82684910ae3565621aea04d62&language=en-US&query=${searchText}&page=1&include_adult=true`
       )
         .then((response) => response.json())
         .then((data) => {
           setSearchResults(data.results);
         });
     }
-  }, [searchText]);
+  }, [searchText]); // The dependency array which is used for variables that the useEffect needs to watch in case of any changes more or less like a state that changes...
 
+/* TODO:
+  > Experiment with useEffect more and more to better understand it.
+  > Enhance your code for better functionality.
+*/
   return (
     <div>
       <NavBar

@@ -1,6 +1,4 @@
-import React from 'react';
 import Hero from './Hero';
-import Footer from './Footer';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
@@ -35,8 +33,6 @@ const MovieView = () => {
                     </div>
                 </div>
             </div>
-
-            <Footer />
         </>
     );
 }
