@@ -30,6 +30,15 @@
   list-style-type: none;
 }
 
+.footer-cont div {
+  border: .1em solid #fff;
+}
+.footer-cont {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
 .movie-prev {
   height: 20em;
 }
