@@ -26,6 +26,10 @@
   background-color: #222222;
 }
 
+.footer-cont ul {
+  list-style-type: none;
+}
+
 .movie-prev {
   height: 20em;
 }
