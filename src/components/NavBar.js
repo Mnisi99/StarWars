@@ -2,21 +2,21 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
-  render({searchText, history, setSearchText}) {
+  render() {
 
    const updateSearchResults = (e) => {
       
       if (e.target.value) {
-        setSearchText(e.target.value);
-        history.push('/search');
+        this.props.setSearchText(e.target.value);
+        this.props.history.push('/search');
       }
     }
 
     const handleSearch = (e) => {
       e.preventDefault();
 
-      if (searchText) {
-        console.log(searchText);
+      if (this.props.searchText) {
+        console.log(this.props.searchText);
       }
     }
 
@@ -97,7 +97,7 @@ class NavBar extends React.Component {
                   type="search"
                   placeholder="Search"
                   aria-label="Search"
-                  value={searchText}
+                  value={this.props.searchText}
                   onChange={updateSearchResults}
                 />
                 <button className="btn btn-outline-success" type="submit">
