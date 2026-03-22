@@ -1,3 +1,10 @@
+#navbarSupportedContent ul {
+  margin: 0 auto;
+  width: 40%;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
 .hero-container {
   position: relative;
   z-index: 100;
