@@ -31,7 +31,8 @@
 }
 
 .footer-cont div {
-  border: .1em solid #fff;
+  /* border: .1em solid #fff; */
+  padding: 1em;
 }
 .footer-cont {
   display: flex;
