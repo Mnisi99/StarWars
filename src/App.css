@@ -5,6 +5,10 @@
   justify-content: space-around;
 }
 
+.navbar-brand {
+  margin-left: 1em;
+}
+
 .hero-container {
   position: relative;
   z-index: 100;

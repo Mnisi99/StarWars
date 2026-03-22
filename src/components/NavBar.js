@@ -2,13 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      searchText: ""
+    }
+
+    this.click = this.click.bind(this);
+  }
+
+  click = (e) => {
+    this.props.history.push('/search');
+    window.location.reload();
+  }
+
   render() {
 
    const updateSearchResults = (e) => {
       
       if (e.target.value) {
         this.props.setSearchText(e.target.value);
-        this.props.history.push('/search');
       }
     }
 
@@ -95,7 +110,7 @@ class NavBar extends React.Component {
                   value={this.props.searchText}
                   onChange={updateSearchResults}
                 />
-                <button className="btn btn-outline-success" type="submit">
+                <button className="btn btn-outline-success" type="submit" onClick={this.click}>
                   Search
                 </button>
               </form>
