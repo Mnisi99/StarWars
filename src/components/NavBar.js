@@ -6,18 +6,12 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      searchText: ""
-    }
-
     this.click = this.click.bind(this);
   }
 
-  click = (e) => {
-    if (e.target.value !== ""){
+  click = () => {
       this.props.history.push('/search');
       window.location.reload();
-    }
     
   }
 
