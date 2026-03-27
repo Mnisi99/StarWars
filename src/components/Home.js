@@ -25,20 +25,13 @@ class Home extends React.Component {
     
     .then(response => response.json())
     .then(data => {
-
         this.setState({
           listObj: data.results
         })
     });
 
     const resultHtml = this.state.listObj.map((obj, index) => {
-
-      if (obj.original_language === "en") {
-        return <StarWars key={index} results={obj}/>
-      } else {
-        return null;
-      }
-
+      return <StarWars key={index} results={obj}/>
     })
 
 
