@@ -107,7 +107,7 @@ class NavBar extends React.Component {
                   value={this.props.searchText}
                   onChange={updateSearchResults}
                 />
-                <button className="btn btn-outline-success" type="submit" onClick={this.click}>
+                <button className="btn btn-outline-success" type="button" onClick={this.click}>
                   Search
                 </button>
               </form>
