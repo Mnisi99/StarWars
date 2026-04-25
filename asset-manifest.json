@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Mnisi99/StarWars.git/static/css/main.628165c8.css",
+    "main.js": "/Mnisi99/StarWars.git/static/js/main.17bac9b0.js",
+    "static/js/453.ee0bec0c.chunk.js": "/Mnisi99/StarWars.git/static/js/453.ee0bec0c.chunk.js",
+    "static/media/nikhil-mistry-z8Iw_NVO2ss-unsplash.jpg": "/Mnisi99/StarWars.git/static/media/nikhil-mistry-z8Iw_NVO2ss-unsplash.457b1c32dbd8efb35651.jpg",
+    "static/media/denise-jans-Lq6rcifGjOU-unsplash.jpg": "/Mnisi99/StarWars.git/static/media/denise-jans-Lq6rcifGjOU-unsplash.c17e8a49c76d3d286bb5.jpg",
+    "static/media/anh-tuan-to-D5teaYPh5oI-unsplash.jpg": "/Mnisi99/StarWars.git/static/media/anh-tuan-to-D5teaYPh5oI-unsplash.9d7155908d55961b14df.jpg",
+    "index.html": "/Mnisi99/StarWars.git/index.html",
+    "main.628165c8.css.map": "/Mnisi99/StarWars.git/static/css/main.628165c8.css.map",
+    "main.17bac9b0.js.map": "/Mnisi99/StarWars.git/static/js/main.17bac9b0.js.map",
+    "453.ee0bec0c.chunk.js.map": "/Mnisi99/StarWars.git/static/js/453.ee0bec0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.628165c8.css",
+    "static/js/main.17bac9b0.js"
+  ]
+}
